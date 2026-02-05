@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Cookies from "js-cookie";
 import { toast, ToastContainer } from "react-toastify";
-import API from "@/utlis/api"; // 👈 important
+import API from "@/utils/api"; // 👈 important
 
 export default function LoginPage() {
   const router = useRouter();

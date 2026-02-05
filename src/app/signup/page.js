@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
-import API from "@/utlis/api";
+import API from "@/utils/api";
 
 export default function SignupPage() {
   const router = useRouter();

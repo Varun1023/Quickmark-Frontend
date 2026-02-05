@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Html5Qrcode } from "html5-qrcode";
 import Cookies from "js-cookie";
-import API from "@/utlis/api"; 
+import API from "@/utils/api"; 
 
 export default function StudentScanPage() {
   const scannerRef = useRef(null);
