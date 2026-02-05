@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Cookies from "js-cookie";
 
-import API from "@/utils/api"; // ✅ centralized API
+import API from "@/utils/api"; 
 
 import Header from "@/components/Header";
 import StatCard from "@/components/StatCard";
