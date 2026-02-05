@@ -155,22 +155,20 @@ export default function DashboardLayout({ children }) {
               </p>
             </div>
 
-            <div className="h-9 w-9 rounded-full bg-indigo-600 flex items-center justify-center text-white font-semibold">
-              V
-            </div>
+            
           </div>
         </header>
 
-        {/* PAGE CONTENT */}
+
         <main className="flex-1 p-4 md:p-6">{children}</main>
       </div>
     </div>
 
-    
+  
   );
 }
 
-/* ---------------- NAV ITEM ---------------- */
+
 
 function NavItem({ href, active, icon, children, onClick }) {
   return (
